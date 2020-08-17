@@ -17,5 +17,14 @@ public class PrintAndHide : MonoBehaviour
     {
         Debug.Log(gameObject.name + ":" + i);
         i++;
+        if (i == 100 && tag == "Red")
+        {
+            gameObject.SetActive(false);
+        }
+
+        if ((i >= 200 && i <= 250) && tag == "Blue")
+        {
+            gameObject.SetActive(false);
+        }
     }
 }
