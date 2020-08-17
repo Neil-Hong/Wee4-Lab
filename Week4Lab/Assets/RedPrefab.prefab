@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 801736281314559220}
   - component: {fileID: 801736281314559221}
   - component: {fileID: 801736281314559210}
+  - component: {fileID: -357892540958405880}
   - component: {fileID: 801736281314559211}
   m_Layer: 0
-  m_Name: RedSphere
+  m_Name: RedPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,6 +81,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &-357892540958405880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801736281314559208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d75905f88eb2a14aaf83021d4abb78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &801736281314559211
 SphereCollider:
   m_ObjectHideFlags: 0

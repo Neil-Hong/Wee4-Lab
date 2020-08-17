@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4740948823323678711}
   - component: {fileID: 4740948823323678710}
   - component: {fileID: 4740948823323678709}
+  - component: {fileID: 5166483894256319461}
   - component: {fileID: 4740948823323678708}
   m_Layer: 0
-  m_Name: BlueSphere
+  m_Name: BluePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,6 +81,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &5166483894256319461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4740948823323678707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d75905f88eb2a14aaf83021d4abb78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &4740948823323678708
 SphereCollider:
   m_ObjectHideFlags: 0
